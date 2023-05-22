@@ -28,6 +28,7 @@
 
 .header__description{
     font-weight: 300;
+    margin-top: 1.2rem;
 }
 
 .main__img-container{
@@ -38,16 +39,18 @@
 
 .main__img{
     width: 100%;
+    max-width: 980px;
+    margin: auto;
 }
 
 .main__img-description{
     margin-top: 0.5rem;
-    font-weight: 400;
-    font-size: 0.9rem;
+    font-weight: 300;
+    font-size: 0.8rem;
     padding-bottom: 0.5rem;
 }
 
-.main__section{
+.main__section, .main__quote-container{
     margin: auto;
     width: 80%;
     max-width: 560px;
@@ -55,14 +58,14 @@
 
 .main__section-title{
     text-align: center;
-    margin-bottom: 3rem;
-    margin-top: 1rem;
+    margin-bottom: 3.5rem;
+    margin-top: 3.3rem;
     color: #333;
 }
 
 .main__item{
     margin-bottom: 1.5rem;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .li__date{
@@ -70,11 +73,55 @@
     font-weight: 700;
 }
 
+.main__quote-container{
+    margin-top: 2rem;
+    padding: 1rem;
+}
+
+.main__quote{
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.footer{
+    padding: 1rem;
+}
+
+.footer__content{
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+    font-size: 1.1rem;
+}
+
+.content__link{
+    color: #477ca7;;
+}
+
+.content__link:hover{
+    color: #74638f;
+}
+
+.content__link:visited{
+    color: #74638f;
+}
+
+
+
+
 @media(min-width: 450px){
     body{
         padding: 0.8rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
+    }
+
+    .main__img-description{
+        font-size: 1rem;
+    }
+
+    .main__item{
+        font-weight: 400;
     }
 }
 
